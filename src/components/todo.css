@@ -1,0 +1,58 @@
+.Main {
+   width: 90%;
+   min-height: 40vh;
+   margin: 40px auto;
+  }
+  
+  .content {
+    padding: 5px;
+    min-height: 25vh;
+  }
+  
+  .text {
+    font-size: large;
+    color: black;
+    background-color: aquamarine;
+  }
+  
+  .heading {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .heading h2 {
+    color: gray;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  .cont{
+    display: flex;
+    justify-content: space-between;
+  }
+  ul li {
+    margin: 16px;
+    font-size: larger;
+    font-weight: 600;
+  }
+ .del-btn{
+  height: 30px;
+  width: 60px;
+  padding: 2px 0px;
+ }
+  .btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px auto;
+    padding: 15px 0;
+    width: 100%;
+    background-color: rgb(15, 96, 209);
+    color: white;
+    border-radius: 20px;
+    font-size: 25px;
+    font-weight: 800;
+  }
+  
